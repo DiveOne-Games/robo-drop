@@ -18,7 +18,6 @@ namespace InController.Scripts
         public bool IsTouching()
         {
             RaycastHit2D hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, boxCastDirection, distanceToTarget,targetLayer);
-            Debug.Log("Collision check: " + hit.collider);
             return hit.collider != null;
         }
 

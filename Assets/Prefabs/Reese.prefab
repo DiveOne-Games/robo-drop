@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4643675624177332100
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1539363764269233766, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764269233767, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_Size.x
+      value: 0.61560345
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764269233767, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7071264
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764269233767, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.02135539
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764269233767, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.14643681
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764269233768, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952273, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_Size.x
+      value: 0.55515337
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952273, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8589215
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952273, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.017109394
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952273, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.057781935
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952275, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_Name
+      value: Reese
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952302, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1912229325, guid: c6b9a5a63c112fe47bb59677a7c19c99, type: 3}
+    - target: {fileID: 1539363764302952303, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952303, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.074341
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952303, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.902258
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952303, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952303, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952303, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952303, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952303, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952303, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952303, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952303, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764756741984, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.449
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764756741985, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_Size.x
+      value: 0.21518314
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764756741985, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.016995013
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539363764756742014, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 328410253, guid: a453d0b82fb43284495334d908a22590, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: a453d0b82fb43284495334d908a22590, type: 3}
+--- !u!1 &6137646875053414615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1539363764302952275, guid: a453d0b82fb43284495334d908a22590, type: 3}
+  m_PrefabInstance: {fileID: 4643675624177332100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4935060117841142099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6137646875053414615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85978a7e8d4849d594580655b7ce7bac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  jumpThrust: 0
+  wallSlideSpeed: 0
+  slopeSpeed: 0
+  smoothDamp: 0.05
+  groundCheck: {fileID: 0}
+  wallCheck: {fileID: 0}
+  jumpHeight: 0
+  rigidbody2d: {fileID: 0}
+  airTimeLimit: 0.3
+  airTime: 0
+  doubleJumpLimit: 0

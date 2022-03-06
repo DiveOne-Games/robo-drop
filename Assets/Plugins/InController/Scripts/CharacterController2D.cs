@@ -35,6 +35,7 @@ namespace InController.Scripts
         public static readonly int Walking = Animator.StringToHash("walking");
         public static readonly int Jumping = Animator.StringToHash("jumping");
         public static readonly int Attacking = Animator.StringToHash("attacking");
+        public static readonly int Shooting = Animator.StringToHash("shooting");
         public static readonly int Hurt = Animator.StringToHash("hurt");
         public static readonly int Dead = Animator.StringToHash("dead");
         public static readonly int Tumbling = Animator.StringToHash("tumbling");
@@ -111,11 +112,13 @@ namespace InController.Scripts
             animator.SetBool(Idle, IsIdle);
             animator.SetBool(Jumping, IsJumping);
             animator.SetBool(Attacking, IsAttacking);
+            animator.SetBool(Shooting, IsShooting);
             animator.SetBool(Hurt, IsHurt);
             animator.SetBool(Tumbling, IsTumbling);
             animator.SetBool(Dead, IsDead);
             animator.SetBool(CastingSpell, IsSpellCasting);
             animator.SetBool(WallSliding, IsWallSliding);
+            animator.SetBool(Grounded, IsGrounded);
         }
     
         public void ChangeFaceDirection() 
