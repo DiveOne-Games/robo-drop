@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1539363764302952272, guid: a453d0b82fb43284495334d908a22590, type: 3}
+      propertyPath: m_GravityScale
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1539363764302952273, guid: a453d0b82fb43284495334d908a22590, type: 3}
       propertyPath: m_Size.x
       value: 0.55515337
@@ -49,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1539363764302952275, guid: a453d0b82fb43284495334d908a22590, type: 3}
       propertyPath: m_Name
-      value: Reese
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1539363764302952302, guid: a453d0b82fb43284495334d908a22590, type: 3}
       propertyPath: m_Sprite
@@ -65,7 +69,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1539363764302952303, guid: a453d0b82fb43284495334d908a22590, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.902258
+      value: -3.49
       objectReference: {fileID: 0}
     - target: {fileID: 1539363764302952303, guid: a453d0b82fb43284495334d908a22590, type: 3}
       propertyPath: m_LocalPosition.z
@@ -113,11 +117,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1539363764756742014, guid: a453d0b82fb43284495334d908a22590, type: 3}
       propertyPath: targetLayer.m_Bits
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 328410253, guid: a453d0b82fb43284495334d908a22590, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a453d0b82fb43284495334d908a22590, type: 3}
+--- !u!114 &6137646874600149242 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1539363764756742014, guid: a453d0b82fb43284495334d908a22590, type: 3}
+  m_PrefabInstance: {fileID: 4643675624177332100}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c35ce4d53d5131d4487280e97b533193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6137646875053414615 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1539363764302952275, guid: a453d0b82fb43284495334d908a22590, type: 3}
@@ -135,15 +150,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85978a7e8d4849d594580655b7ce7bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  jumpThrust: 0
-  wallSlideSpeed: 0
-  slopeSpeed: 0
+  speed: 8
+  jumpThrust: 20
+  wallSlideSpeed: -2
+  slopeSpeed: 12
   smoothDamp: 0.05
-  groundCheck: {fileID: 0}
-  wallCheck: {fileID: 0}
-  jumpHeight: 0
+  groundCheck: {fileID: 6137646874600149242}
+  wallCheck: {fileID: 6137646875087133154}
+  jumpHeight: 2
   rigidbody2d: {fileID: 0}
   airTimeLimit: 0.3
   airTime: 0
-  doubleJumpLimit: 0
+  doubleJumpLimit: 1
+--- !u!114 &6137646875087133154 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1539363764269233766, guid: a453d0b82fb43284495334d908a22590, type: 3}
+  m_PrefabInstance: {fileID: 4643675624177332100}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5929e60d1d692d847b3c317c3a992e4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
